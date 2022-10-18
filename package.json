@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-template",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A vite plugin template",
   "main": "dist/index.js",
   "scripts": {
