@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": "src",
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["vite.config.ts", "./src", "plugins", "iconfont.js"],
+  "exclude": ["node_modules"]
+}
